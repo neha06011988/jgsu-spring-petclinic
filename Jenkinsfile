@@ -4,7 +4,6 @@ pipeline {
         stage('Build') { 
             steps {
                 npm i
-                npm run lint
                 npm run build
             }
         }
