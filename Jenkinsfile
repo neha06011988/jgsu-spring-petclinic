@@ -13,10 +13,5 @@ pipeline {
                 npm run test 
             }
         }
-        stage('Deploy') { 
-            steps {
-                // 
-            }
-        }
-    }
+      }
     
